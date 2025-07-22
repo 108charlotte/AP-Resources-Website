@@ -20,7 +20,7 @@
     $: {
         if (search.toLowerCase() == 'how to get a 5') {
             filteredResources = [
-                {title: "Studying", description: "I'm sorry but no matter how many resources you purchase, you are still going to have to study at some point.", link: "https://dictionary.cambridge.org/us/dictionary/english/studying", rating: 10, is_paid: "Free", subject: ""}
+                {title: "Studying", description: "I'm sorry :(. No matter how many resources you purchase, you are still going to have to study at some point.", link: "https://dictionary.cambridge.org/us/dictionary/english/studying", rating: 10, is_paid: "Free", subject: ""}
             ];
         } else {
             filteredResources = resources.filter(resource => resource.subject.toLowerCase().includes(search.toLowerCase()));
