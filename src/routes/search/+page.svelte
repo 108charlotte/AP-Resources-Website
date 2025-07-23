@@ -28,9 +28,9 @@
     }
 </script>
 
-<h1>All Resources</h1>
+<h1 class="m-2 text-2xl font-bold">All Resources</h1>
 
-<input type="text" placeholder="Search by course (ex. Chemistry, World History: Modern, CSA)" bind:value={search} class="w-110"/>
+<input class="m-2 w-112 border-2 p-1" type="text" placeholder="Search by course (ex. Chemistry, World History: Modern, CSA)" bind:value={search} />
 
 <div class="grid grid-cols-2 gap-4">
     {#each filteredResources as resource}
